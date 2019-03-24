@@ -17,7 +17,7 @@
     </taskdef>
     <!--Check with Org-->
     <target name="Validate">
-      <sf:deploy username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" checkOnly="true" testLevel=”RunLocalTest”/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" checkOnly="true" />
     </target>
     <!--Retrieve Org Data-->
     <target name="retrieveOrg">

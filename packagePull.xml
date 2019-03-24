@@ -204,10 +204,10 @@
         <members>*</members>
         <name>Queue</name>
     </types>
-    <types>
+    <!--<types>
         <members>*</members>
         <name>QuickAction</name>
-    </types>
+    </types>-->
     <types>
         <members>*</members>
         <name>RemoteSiteSetting</name>
@@ -248,9 +248,9 @@
         <members>*</members>
         <name>TransactionSecurityPolicy</name>
     </types>
-    <types>
+    <!--<types>
         <members>*</members>
         <name>Settings</name>
-    </types>
+    </types>-->
     <version>36.0</version>
 </Package>

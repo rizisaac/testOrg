@@ -26,7 +26,7 @@
     </target>
     <!-- Push to my Prod Org -->
     <target name="deployIntoProduction">
-      <sf:deploy username="${sf.Prod_username}" password="${sf.Prod_password}" sessionId="${sf.Prod_sessionId}" serverurl="${sf.Prod_serverurl}" maxPoll="${sf.Prod_maxPoll}" deployRoot="src" checkOnly="true"  testLevel=”RunLocalTest”/>
+      <sf:deploy username="${sf.Prod_username}" password="${sf.Prod_password}" sessionId="${sf.Prod_sessionId}" serverurl="${sf.Prod_serverurl}" maxPoll="${sf.Prod_maxPoll}" deployRoot="src" checkOnly="true"  />
     </target>
 
 </project>
